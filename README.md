@@ -1,5 +1,8 @@
 # discord_pokemon_fusion
 
+![image](https://user-images.githubusercontent.com/479738/222197281-bc92dad2-6aa8-46e3-bc9f-c25e118f8f79.png)
+
+
 Built using python 3.11
 
 ```
