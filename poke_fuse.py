@@ -20,13 +20,8 @@ except Exception as e:
 ## TODO: when i have a 'prod' token
 token = token['dev_token']
 
-
 intents = discord.Intents.default()
 intents.message_content = True
-
-# client = discord.Client(intents=intents)
-# tree = app_commands.CommandTree(client)
-
 bot = commands.Bot(command_prefix = '!', intents=intents)
 
 # Add the guild ids in which the slash command will appear. 
@@ -52,36 +47,23 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
     urls[0]["name"] = f"{mon1}/{mon2}"
     urls[1]["name"] = f"{mon2}/{mon1}"
     
-    # emded1 = discord.Embed(url="http://foo.bar/")
-    # emded1.set_image(url=urls[0])
-    # emded1.add_field(name='Name', value=f"{mon1}/{mon2}")
-    
-    # embed2 = discord.Embed(url="http://foo.bar/")
-    # embed2.set_image(url=urls[1])
-    # emded1.add_field(name='Name', value=f"{mon2}/{mon1}")
-    
     embed_list = []
     for url in urls:
         embed = discord.Embed(url="http://foo.bar/")
         embed.set_image(url=url['url'])
         embed_list.append(embed)
-        
-    first_embed = embed_list[0]
-    
-    
-    
-    first_embed.add_field(name='Name', value=f"{urls[0]['name']} - {urls[0]['type']}")
-    first_embed.add_field(name='Name', value=f"{urls[1]['name']} - {urls[1]['type']}")
+        first_embed = embed_list[0]
+        first_embed.add_field(name='Name', value=f"{url['name']} - {url['type']}")
     
     await interaction.response.send_message(embeds=embed_list)
 
 
-def get_pokemon_id(pokemon):
+def get_pokemon_id(pokemon: str):
     """
     checks if the entry is a valid pokemon, if yes it returns the pokedex number.
     uses https://pokeapi.co/ to determine if pokemon name is valid.
     """
-    response = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon}')
+    response = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon.lower()}')
     if response.status_code == 200:
         mon_data = response.json()
         return mon_data['id']
@@ -193,15 +175,4 @@ async def sync(ctx: Context, guilds: Greedy[discord.Object], spec: Optional[Lite
     await ctx.send(f"Synced the tree to {ret}/{len(guilds)}.")
 
 
-
-# @client.event
-# async def on_message(message):
-#     if message.author == client.user:
-#         return
-
-#     if message.content.startswith('$hello'):
-#         await message.channel.send('Hello!')
-
-
 bot.run(token)
-# client.run(token)
