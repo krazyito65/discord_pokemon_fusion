@@ -25,3 +25,5 @@ once sync is completed, the slash command should work
 ```
 /fuse mon1 mon2
 ```
+
+discord slash command sync info: https://gist.github.com/AbstractUmbra/a9c188797ae194e592efe05fa129c57f
