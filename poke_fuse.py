@@ -44,7 +44,7 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
         mon2_id = get_pokemon_id(mon2)
     except InvalidPokemon as invalid:
         print(f"{interaction.user.name}#{interaction.user.discriminator} passed an invalid pokemon: {invalid}")
-        await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗")
+        await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗", ephemeral=True)
         return
     
     urls = get_images(mon1_id, mon2_id)
