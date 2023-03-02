@@ -45,7 +45,10 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
     urls = get_images(mon1_id, mon2_id)
     
     urls[0]["name"] = f"{mon1}/{mon2}"
-    urls[1]["name"] = f"{mon2}/{mon1}"
+    if not mon1_id == mon2_id:
+        urls[1]["name"] = f"{mon2}/{mon1}"
+    else:
+        urls = [urls[0]]
     
     embed_list = []
     for url in urls:
