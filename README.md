@@ -46,9 +46,10 @@ You can launch the container via a raw docker run command or use docker-compose 
 Docker-compose is recommended if available.
 #### Docker Compose
 ```sh
+# Startup
 docker-compose up -d
 
-# To shutdown the container
+# Shutdown
 docker-compose down
 ```
 
