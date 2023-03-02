@@ -27,3 +27,39 @@ once sync is completed, the slash command should work
 ```
 
 discord slash command sync info: https://gist.github.com/AbstractUmbra/a9c188797ae194e592efe05fa129c57f
+
+---
+## Container Info
+This project supports running in a container that is built before runtime (It's not hosted on a repo). 
+It is built from the `python:3.11` base image.
+
+### 1. Build
+Run the following from the root repo directory to build a local image.
+```sh
+docker image build -t discord_pokemon_fusion_bot:latest .
+```
+### 2. Configure and Run
+Initialize your `token.yml` file in your local repo directory. This file will be copied as a secret to the container runtime. See above steps for details on the content.
+
+You can launch the container via a raw docker run command or use docker-compose if you have it installed. 
+
+Docker-compose is recommended if available.
+#### Docker Compose
+```sh
+docker-compose up -d
+
+# To shutdown the container
+docker-compose down
+```
+
+#### Docker Run
+```sh
+docker run -d -it --name poke-fusion-bot --mount type=bind,source="$(pwd)/token.yml,target=/app/token.yml" \
+    -e PYTHONUNBUFFERED="1" discord_pokemon_fusion_bot:latest
+
+# Shutdown and Remove (This deletes logs)
+docker container stop poke-fusion-bot && docker container rm poke-fusion-bot
+```
+
+### 3. Logs
+Logs can be viewed using `docker container logs <container_id> -f`. For example, if using docker-compose you could view the logs with `docker container logs discord_pokemon_fusion-fusion_bot-1 -f`

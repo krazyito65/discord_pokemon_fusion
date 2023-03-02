@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+  fusion_bot:
+    image: "discord_pokemon_fusion_bot:latest"
+    volumes:
+      - type: bind
+        source: ./token.yml
+        target: /app/token.yml
+    environment:
+      - "PYTHONUNBUFFERED=1"
