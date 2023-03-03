@@ -456,14 +456,16 @@ bot = commands.Bot(command_prefix = '!', intents=intents)
 async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
     print(f'we are about to fuse {mon1} and {mon2}')
 
-    try:
+    '''try:
         mon1_id = get_pokemon_id(mon1)
         mon2_id = get_pokemon_id(mon2)
     except InvalidPokemon as invalid:
         print(f"{interaction.user.name}#{interaction.user.discriminator} passed an invalid pokemon: {invalid}")
         await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗", ephemeral=True)
-        return
+        return'''
 
+    mon1_id = pd_full_collection[mon1]["id"]
+    mon2_id = pd_full_collection[mon2]["id"]
     urls = get_images(mon1_id, mon2_id)
 
     urls[0]["name"] = f"{pd_full_collection[mon1]['dname']}/{pd_full_collection[mon2]['dname']}"
