@@ -466,9 +466,9 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
 
     urls = get_images(mon1_id, mon2_id)
 
-    urls[0]["name"] = f"{mon1.capitalize()}/{mon2.capitalize()}"
+    urls[0]["name"] = f"{pd_full_collection[mon1]['dname']}/{pd_full_collection[mon2]['dname']}"
     if not mon1_id == mon2_id:
-        urls[1]["name"] = f"{mon2.capitalize()}/{mon1.capitalize()}"
+        urls[1]["name"] = f"{pd_full_collection[mon2]['dname']}/{pd_full_collection[mon1]['dname']}"
     else:
         urls = [urls[0]]
 
@@ -487,7 +487,7 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
 async def fuse_autocomplete(interaction: discord.Interaction, current: str) -> list[app_commands.Choice[str]]:
     if len(current) > 1:
         return [
-            app_commands.Choice(name=mon.capitalize(), value=mon)
+            app_commands.Choice(name=pd_full_collection[mon]["dname"], value=mon)
             for mon in pd_full_collection.keys() if current.lower() in mon.lower()
         ]
     else:
