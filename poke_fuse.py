@@ -485,28 +485,13 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
 @fuse.autocomplete('mon1')
 @fuse.autocomplete('mon2')
 async def fuse_autocomplete(interaction: discord.Interaction, current: str) -> list[app_commands.Choice[str]]:
-    if len(current) > 2:
+    if len(current) > 1:
         return [
             app_commands.Choice(name=mon.capitalize(), value=mon)
             for mon in pd_full_collection.keys() if current.lower() in mon.lower()
         ]
     else:
         return []
-
-@bot.tree.command(description="Fruit!!!!")
-async def fruits(interaction: discord.Interaction, fruit: str):
-   await interaction.response.send_message(f'Your favourite fruit seems to be {fruit}')
-
-@fruits.autocomplete('fruit')
-async def fruits_autocomplete(
-   interaction: discord.Interaction,
-   current: str,
-) -> list[app_commands.Choice[str]]:
-   fruits = ['Banana', 'Pineapple', 'Apple', 'Watermelon', 'Melon', 'Cherry']
-   return [
-       app_commands.Choice(name=fruit, value=fruit)
-       for fruit in fruits if current.lower() in fruit.lower()
-   ]
 
 def get_pokemon_id(pokemon: str):
     """
