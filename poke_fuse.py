@@ -454,8 +454,6 @@ bot = commands.Bot(command_prefix = '!', intents=intents)
     mon2='Second Pokemon to fuse'
 )
 async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
-    print(f'we are about to fuse {mon1} and {mon2}')
-
     '''try:
         mon1_id = get_pokemon_id(mon1)
         mon2_id = get_pokemon_id(mon2)
@@ -464,6 +462,13 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
         await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗", ephemeral=True)
         return'''
 
+    if mon1 not in pd_full_collection.keys() or mon2 not in pd_full_collection.keys():
+        invalid = mon1 if mon1 not in pd_full_collection.keys() else mon2
+        print(f"{interaction.user.name}#{interaction.user.discriminator} passed an invalid pokemon: {invalid}")
+        await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗", ephemeral=True)
+        return
+
+    print(f'we are about to fuse {mon1} and {mon2}')
     mon1_id = pd_full_collection[mon1]["id"]
     mon2_id = pd_full_collection[mon2]["id"]
     urls = get_images(mon1_id, mon2_id)
