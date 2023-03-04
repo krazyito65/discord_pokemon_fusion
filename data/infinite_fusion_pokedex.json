@@ -142,7 +142,7 @@
     "nidoran-f": {
         "fid": 29,
         "oid": 29,
-        "dname": "Nidoran-f"
+        "dname": "Nidoran\u2640\ufe0f"
     },
     "nidorina": {
         "fid": 30,
@@ -157,7 +157,7 @@
     "nidoran-m": {
         "fid": 32,
         "oid": 32,
-        "dname": "Nidoran-m"
+        "dname": "Nidoran\u2642\ufe0f"
     },
     "nidorino": {
         "fid": 33,
@@ -607,7 +607,7 @@
     "mr-mime": {
         "fid": 122,
         "oid": 122,
-        "dname": "Mr-mime"
+        "dname": "Mr. Mime"
     },
     "scyther": {
         "fid": 123,
@@ -1247,7 +1247,7 @@
     "ho-oh": {
         "fid": 250,
         "oid": 250,
-        "dname": "Ho-oh"
+        "dname": "Ho-Oh"
     },
     "celebi": {
         "fid": 251,

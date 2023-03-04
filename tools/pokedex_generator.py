@@ -48,8 +48,18 @@ def get_second_169() -> dict:
 def special_cases(pokemon: str) -> dict:
     """
     Special cases for pokemon info.
+    
+    The first 251 call this function with a number, 
+        since we don't 'know' the name when get_pokemon_info is called,
+        hence numbered special cases.
+    
+    the last 169 are called by name, since we don't know their offical numebers.
     """
     special_cases = [
+        29,  # Nidoran-f
+        32,  # Nidoran-m
+        122, # Mr-mime
+        250, # Ho-oh
         "Mime Jr.",
         "Aegislash",
         "Giratina",
@@ -58,7 +68,15 @@ def special_cases(pokemon: str) -> dict:
     ]
     
     if pokemon in special_cases:
-        if pokemon == "Mime Jr.":
+        if pokemon == 29:
+            return ("nidoran-f", {'fid': 29, 'oid': 29, "dname": "Nidoran♀️"})
+        elif pokemon == 32:
+            return ("nidoran-m", {'fid': 32, 'oid': 32, "dname": "Nidoran♂️"})
+        elif pokemon == 122:
+            return ("mr-mime", {'fid': 122, 'oid': 122, "dname": "Mr. Mime"})
+        elif pokemon == 250:
+            return ("ho-oh", {'fid': 250, 'oid': 250, "dname": "Ho-Oh"})
+        elif pokemon == "Mime Jr.":
             return ("mime-jr", {'fid': 258, 'oid': 439, "dname": pokemon})
         elif pokemon == "Aegislash":
             return ("aegislash-shield", {'fid': 329, 'oid': 681, "dname": pokemon})
