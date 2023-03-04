@@ -38,15 +38,16 @@ bot = commands.Bot(command_prefix = '!', intents=intents)
     mon2='Second Pokemon to fuse'
 )
 async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
+    mon1, mon2 = mon1.lower(), mon2.lower()
     if mon1 not in POKEDEX.keys() or mon2 not in POKEDEX.keys():
         invalid = mon1 if mon1 not in POKEDEX.keys() else mon2
+        print(f"mon1: [{mon1}] - mon2: [{mon2}]")
         print(f"{interaction.user.name}#{interaction.user.discriminator} passed an invalid pokemon: {invalid}")
         await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗", ephemeral=True)
         return
 
-    print(f'we are about to fuse {mon1} and {mon2}')
-    mon1_id = POKEDEX[mon1]["fid"]
-    mon2_id = POKEDEX[mon2]["fid"]
+    print(f'we are about to fuse "{mon1}" and "{mon2}"')
+    mon1_id, mon2_id = POKEDEX[mon1]["fid"], POKEDEX[mon2]["fid"]
     urls = get_images(mon1_id, mon2_id)
 
     urls[0]["name"] = f"{POKEDEX[mon1]['dname']}/{POKEDEX[mon2]['dname']}"
