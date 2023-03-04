@@ -1,0 +1,2102 @@
+{
+    "bulbasaur": {
+        "fid": 1,
+        "oid": 1,
+        "dname": "Bulbasaur"
+    },
+    "ivysaur": {
+        "fid": 2,
+        "oid": 2,
+        "dname": "Ivysaur"
+    },
+    "venusaur": {
+        "fid": 3,
+        "oid": 3,
+        "dname": "Venusaur"
+    },
+    "charmander": {
+        "fid": 4,
+        "oid": 4,
+        "dname": "Charmander"
+    },
+    "charmeleon": {
+        "fid": 5,
+        "oid": 5,
+        "dname": "Charmeleon"
+    },
+    "charizard": {
+        "fid": 6,
+        "oid": 6,
+        "dname": "Charizard"
+    },
+    "squirtle": {
+        "fid": 7,
+        "oid": 7,
+        "dname": "Squirtle"
+    },
+    "wartortle": {
+        "fid": 8,
+        "oid": 8,
+        "dname": "Wartortle"
+    },
+    "blastoise": {
+        "fid": 9,
+        "oid": 9,
+        "dname": "Blastoise"
+    },
+    "caterpie": {
+        "fid": 10,
+        "oid": 10,
+        "dname": "Caterpie"
+    },
+    "metapod": {
+        "fid": 11,
+        "oid": 11,
+        "dname": "Metapod"
+    },
+    "butterfree": {
+        "fid": 12,
+        "oid": 12,
+        "dname": "Butterfree"
+    },
+    "weedle": {
+        "fid": 13,
+        "oid": 13,
+        "dname": "Weedle"
+    },
+    "kakuna": {
+        "fid": 14,
+        "oid": 14,
+        "dname": "Kakuna"
+    },
+    "beedrill": {
+        "fid": 15,
+        "oid": 15,
+        "dname": "Beedrill"
+    },
+    "pidgey": {
+        "fid": 16,
+        "oid": 16,
+        "dname": "Pidgey"
+    },
+    "pidgeotto": {
+        "fid": 17,
+        "oid": 17,
+        "dname": "Pidgeotto"
+    },
+    "pidgeot": {
+        "fid": 18,
+        "oid": 18,
+        "dname": "Pidgeot"
+    },
+    "rattata": {
+        "fid": 19,
+        "oid": 19,
+        "dname": "Rattata"
+    },
+    "raticate": {
+        "fid": 20,
+        "oid": 20,
+        "dname": "Raticate"
+    },
+    "spearow": {
+        "fid": 21,
+        "oid": 21,
+        "dname": "Spearow"
+    },
+    "fearow": {
+        "fid": 22,
+        "oid": 22,
+        "dname": "Fearow"
+    },
+    "ekans": {
+        "fid": 23,
+        "oid": 23,
+        "dname": "Ekans"
+    },
+    "arbok": {
+        "fid": 24,
+        "oid": 24,
+        "dname": "Arbok"
+    },
+    "pikachu": {
+        "fid": 25,
+        "oid": 25,
+        "dname": "Pikachu"
+    },
+    "raichu": {
+        "fid": 26,
+        "oid": 26,
+        "dname": "Raichu"
+    },
+    "sandshrew": {
+        "fid": 27,
+        "oid": 27,
+        "dname": "Sandshrew"
+    },
+    "sandslash": {
+        "fid": 28,
+        "oid": 28,
+        "dname": "Sandslash"
+    },
+    "nidoran-f": {
+        "fid": 29,
+        "oid": 29,
+        "dname": "Nidoran-f"
+    },
+    "nidorina": {
+        "fid": 30,
+        "oid": 30,
+        "dname": "Nidorina"
+    },
+    "nidoqueen": {
+        "fid": 31,
+        "oid": 31,
+        "dname": "Nidoqueen"
+    },
+    "nidoran-m": {
+        "fid": 32,
+        "oid": 32,
+        "dname": "Nidoran-m"
+    },
+    "nidorino": {
+        "fid": 33,
+        "oid": 33,
+        "dname": "Nidorino"
+    },
+    "nidoking": {
+        "fid": 34,
+        "oid": 34,
+        "dname": "Nidoking"
+    },
+    "clefairy": {
+        "fid": 35,
+        "oid": 35,
+        "dname": "Clefairy"
+    },
+    "clefable": {
+        "fid": 36,
+        "oid": 36,
+        "dname": "Clefable"
+    },
+    "vulpix": {
+        "fid": 37,
+        "oid": 37,
+        "dname": "Vulpix"
+    },
+    "ninetales": {
+        "fid": 38,
+        "oid": 38,
+        "dname": "Ninetales"
+    },
+    "jigglypuff": {
+        "fid": 39,
+        "oid": 39,
+        "dname": "Jigglypuff"
+    },
+    "wigglytuff": {
+        "fid": 40,
+        "oid": 40,
+        "dname": "Wigglytuff"
+    },
+    "zubat": {
+        "fid": 41,
+        "oid": 41,
+        "dname": "Zubat"
+    },
+    "golbat": {
+        "fid": 42,
+        "oid": 42,
+        "dname": "Golbat"
+    },
+    "oddish": {
+        "fid": 43,
+        "oid": 43,
+        "dname": "Oddish"
+    },
+    "gloom": {
+        "fid": 44,
+        "oid": 44,
+        "dname": "Gloom"
+    },
+    "vileplume": {
+        "fid": 45,
+        "oid": 45,
+        "dname": "Vileplume"
+    },
+    "paras": {
+        "fid": 46,
+        "oid": 46,
+        "dname": "Paras"
+    },
+    "parasect": {
+        "fid": 47,
+        "oid": 47,
+        "dname": "Parasect"
+    },
+    "venonat": {
+        "fid": 48,
+        "oid": 48,
+        "dname": "Venonat"
+    },
+    "venomoth": {
+        "fid": 49,
+        "oid": 49,
+        "dname": "Venomoth"
+    },
+    "diglett": {
+        "fid": 50,
+        "oid": 50,
+        "dname": "Diglett"
+    },
+    "dugtrio": {
+        "fid": 51,
+        "oid": 51,
+        "dname": "Dugtrio"
+    },
+    "meowth": {
+        "fid": 52,
+        "oid": 52,
+        "dname": "Meowth"
+    },
+    "persian": {
+        "fid": 53,
+        "oid": 53,
+        "dname": "Persian"
+    },
+    "psyduck": {
+        "fid": 54,
+        "oid": 54,
+        "dname": "Psyduck"
+    },
+    "golduck": {
+        "fid": 55,
+        "oid": 55,
+        "dname": "Golduck"
+    },
+    "mankey": {
+        "fid": 56,
+        "oid": 56,
+        "dname": "Mankey"
+    },
+    "primeape": {
+        "fid": 57,
+        "oid": 57,
+        "dname": "Primeape"
+    },
+    "growlithe": {
+        "fid": 58,
+        "oid": 58,
+        "dname": "Growlithe"
+    },
+    "arcanine": {
+        "fid": 59,
+        "oid": 59,
+        "dname": "Arcanine"
+    },
+    "poliwag": {
+        "fid": 60,
+        "oid": 60,
+        "dname": "Poliwag"
+    },
+    "poliwhirl": {
+        "fid": 61,
+        "oid": 61,
+        "dname": "Poliwhirl"
+    },
+    "poliwrath": {
+        "fid": 62,
+        "oid": 62,
+        "dname": "Poliwrath"
+    },
+    "abra": {
+        "fid": 63,
+        "oid": 63,
+        "dname": "Abra"
+    },
+    "kadabra": {
+        "fid": 64,
+        "oid": 64,
+        "dname": "Kadabra"
+    },
+    "alakazam": {
+        "fid": 65,
+        "oid": 65,
+        "dname": "Alakazam"
+    },
+    "machop": {
+        "fid": 66,
+        "oid": 66,
+        "dname": "Machop"
+    },
+    "machoke": {
+        "fid": 67,
+        "oid": 67,
+        "dname": "Machoke"
+    },
+    "machamp": {
+        "fid": 68,
+        "oid": 68,
+        "dname": "Machamp"
+    },
+    "bellsprout": {
+        "fid": 69,
+        "oid": 69,
+        "dname": "Bellsprout"
+    },
+    "weepinbell": {
+        "fid": 70,
+        "oid": 70,
+        "dname": "Weepinbell"
+    },
+    "victreebel": {
+        "fid": 71,
+        "oid": 71,
+        "dname": "Victreebel"
+    },
+    "tentacool": {
+        "fid": 72,
+        "oid": 72,
+        "dname": "Tentacool"
+    },
+    "tentacruel": {
+        "fid": 73,
+        "oid": 73,
+        "dname": "Tentacruel"
+    },
+    "geodude": {
+        "fid": 74,
+        "oid": 74,
+        "dname": "Geodude"
+    },
+    "graveler": {
+        "fid": 75,
+        "oid": 75,
+        "dname": "Graveler"
+    },
+    "golem": {
+        "fid": 76,
+        "oid": 76,
+        "dname": "Golem"
+    },
+    "ponyta": {
+        "fid": 77,
+        "oid": 77,
+        "dname": "Ponyta"
+    },
+    "rapidash": {
+        "fid": 78,
+        "oid": 78,
+        "dname": "Rapidash"
+    },
+    "slowpoke": {
+        "fid": 79,
+        "oid": 79,
+        "dname": "Slowpoke"
+    },
+    "slowbro": {
+        "fid": 80,
+        "oid": 80,
+        "dname": "Slowbro"
+    },
+    "magnemite": {
+        "fid": 81,
+        "oid": 81,
+        "dname": "Magnemite"
+    },
+    "magneton": {
+        "fid": 82,
+        "oid": 82,
+        "dname": "Magneton"
+    },
+    "farfetchd": {
+        "fid": 83,
+        "oid": 83,
+        "dname": "Farfetchd"
+    },
+    "doduo": {
+        "fid": 84,
+        "oid": 84,
+        "dname": "Doduo"
+    },
+    "dodrio": {
+        "fid": 85,
+        "oid": 85,
+        "dname": "Dodrio"
+    },
+    "seel": {
+        "fid": 86,
+        "oid": 86,
+        "dname": "Seel"
+    },
+    "dewgong": {
+        "fid": 87,
+        "oid": 87,
+        "dname": "Dewgong"
+    },
+    "grimer": {
+        "fid": 88,
+        "oid": 88,
+        "dname": "Grimer"
+    },
+    "muk": {
+        "fid": 89,
+        "oid": 89,
+        "dname": "Muk"
+    },
+    "shellder": {
+        "fid": 90,
+        "oid": 90,
+        "dname": "Shellder"
+    },
+    "cloyster": {
+        "fid": 91,
+        "oid": 91,
+        "dname": "Cloyster"
+    },
+    "gastly": {
+        "fid": 92,
+        "oid": 92,
+        "dname": "Gastly"
+    },
+    "haunter": {
+        "fid": 93,
+        "oid": 93,
+        "dname": "Haunter"
+    },
+    "gengar": {
+        "fid": 94,
+        "oid": 94,
+        "dname": "Gengar"
+    },
+    "onix": {
+        "fid": 95,
+        "oid": 95,
+        "dname": "Onix"
+    },
+    "drowzee": {
+        "fid": 96,
+        "oid": 96,
+        "dname": "Drowzee"
+    },
+    "hypno": {
+        "fid": 97,
+        "oid": 97,
+        "dname": "Hypno"
+    },
+    "krabby": {
+        "fid": 98,
+        "oid": 98,
+        "dname": "Krabby"
+    },
+    "kingler": {
+        "fid": 99,
+        "oid": 99,
+        "dname": "Kingler"
+    },
+    "voltorb": {
+        "fid": 100,
+        "oid": 100,
+        "dname": "Voltorb"
+    },
+    "electrode": {
+        "fid": 101,
+        "oid": 101,
+        "dname": "Electrode"
+    },
+    "exeggcute": {
+        "fid": 102,
+        "oid": 102,
+        "dname": "Exeggcute"
+    },
+    "exeggutor": {
+        "fid": 103,
+        "oid": 103,
+        "dname": "Exeggutor"
+    },
+    "cubone": {
+        "fid": 104,
+        "oid": 104,
+        "dname": "Cubone"
+    },
+    "marowak": {
+        "fid": 105,
+        "oid": 105,
+        "dname": "Marowak"
+    },
+    "hitmonlee": {
+        "fid": 106,
+        "oid": 106,
+        "dname": "Hitmonlee"
+    },
+    "hitmonchan": {
+        "fid": 107,
+        "oid": 107,
+        "dname": "Hitmonchan"
+    },
+    "lickitung": {
+        "fid": 108,
+        "oid": 108,
+        "dname": "Lickitung"
+    },
+    "koffing": {
+        "fid": 109,
+        "oid": 109,
+        "dname": "Koffing"
+    },
+    "weezing": {
+        "fid": 110,
+        "oid": 110,
+        "dname": "Weezing"
+    },
+    "rhyhorn": {
+        "fid": 111,
+        "oid": 111,
+        "dname": "Rhyhorn"
+    },
+    "rhydon": {
+        "fid": 112,
+        "oid": 112,
+        "dname": "Rhydon"
+    },
+    "chansey": {
+        "fid": 113,
+        "oid": 113,
+        "dname": "Chansey"
+    },
+    "tangela": {
+        "fid": 114,
+        "oid": 114,
+        "dname": "Tangela"
+    },
+    "kangaskhan": {
+        "fid": 115,
+        "oid": 115,
+        "dname": "Kangaskhan"
+    },
+    "horsea": {
+        "fid": 116,
+        "oid": 116,
+        "dname": "Horsea"
+    },
+    "seadra": {
+        "fid": 117,
+        "oid": 117,
+        "dname": "Seadra"
+    },
+    "goldeen": {
+        "fid": 118,
+        "oid": 118,
+        "dname": "Goldeen"
+    },
+    "seaking": {
+        "fid": 119,
+        "oid": 119,
+        "dname": "Seaking"
+    },
+    "staryu": {
+        "fid": 120,
+        "oid": 120,
+        "dname": "Staryu"
+    },
+    "starmie": {
+        "fid": 121,
+        "oid": 121,
+        "dname": "Starmie"
+    },
+    "mr-mime": {
+        "fid": 122,
+        "oid": 122,
+        "dname": "Mr-mime"
+    },
+    "scyther": {
+        "fid": 123,
+        "oid": 123,
+        "dname": "Scyther"
+    },
+    "jynx": {
+        "fid": 124,
+        "oid": 124,
+        "dname": "Jynx"
+    },
+    "electabuzz": {
+        "fid": 125,
+        "oid": 125,
+        "dname": "Electabuzz"
+    },
+    "magmar": {
+        "fid": 126,
+        "oid": 126,
+        "dname": "Magmar"
+    },
+    "pinsir": {
+        "fid": 127,
+        "oid": 127,
+        "dname": "Pinsir"
+    },
+    "tauros": {
+        "fid": 128,
+        "oid": 128,
+        "dname": "Tauros"
+    },
+    "magikarp": {
+        "fid": 129,
+        "oid": 129,
+        "dname": "Magikarp"
+    },
+    "gyarados": {
+        "fid": 130,
+        "oid": 130,
+        "dname": "Gyarados"
+    },
+    "lapras": {
+        "fid": 131,
+        "oid": 131,
+        "dname": "Lapras"
+    },
+    "ditto": {
+        "fid": 132,
+        "oid": 132,
+        "dname": "Ditto"
+    },
+    "eevee": {
+        "fid": 133,
+        "oid": 133,
+        "dname": "Eevee"
+    },
+    "vaporeon": {
+        "fid": 134,
+        "oid": 134,
+        "dname": "Vaporeon"
+    },
+    "jolteon": {
+        "fid": 135,
+        "oid": 135,
+        "dname": "Jolteon"
+    },
+    "flareon": {
+        "fid": 136,
+        "oid": 136,
+        "dname": "Flareon"
+    },
+    "porygon": {
+        "fid": 137,
+        "oid": 137,
+        "dname": "Porygon"
+    },
+    "omanyte": {
+        "fid": 138,
+        "oid": 138,
+        "dname": "Omanyte"
+    },
+    "omastar": {
+        "fid": 139,
+        "oid": 139,
+        "dname": "Omastar"
+    },
+    "kabuto": {
+        "fid": 140,
+        "oid": 140,
+        "dname": "Kabuto"
+    },
+    "kabutops": {
+        "fid": 141,
+        "oid": 141,
+        "dname": "Kabutops"
+    },
+    "aerodactyl": {
+        "fid": 142,
+        "oid": 142,
+        "dname": "Aerodactyl"
+    },
+    "snorlax": {
+        "fid": 143,
+        "oid": 143,
+        "dname": "Snorlax"
+    },
+    "articuno": {
+        "fid": 144,
+        "oid": 144,
+        "dname": "Articuno"
+    },
+    "zapdos": {
+        "fid": 145,
+        "oid": 145,
+        "dname": "Zapdos"
+    },
+    "moltres": {
+        "fid": 146,
+        "oid": 146,
+        "dname": "Moltres"
+    },
+    "dratini": {
+        "fid": 147,
+        "oid": 147,
+        "dname": "Dratini"
+    },
+    "dragonair": {
+        "fid": 148,
+        "oid": 148,
+        "dname": "Dragonair"
+    },
+    "dragonite": {
+        "fid": 149,
+        "oid": 149,
+        "dname": "Dragonite"
+    },
+    "mewtwo": {
+        "fid": 150,
+        "oid": 150,
+        "dname": "Mewtwo"
+    },
+    "mew": {
+        "fid": 151,
+        "oid": 151,
+        "dname": "Mew"
+    },
+    "chikorita": {
+        "fid": 152,
+        "oid": 152,
+        "dname": "Chikorita"
+    },
+    "bayleef": {
+        "fid": 153,
+        "oid": 153,
+        "dname": "Bayleef"
+    },
+    "meganium": {
+        "fid": 154,
+        "oid": 154,
+        "dname": "Meganium"
+    },
+    "cyndaquil": {
+        "fid": 155,
+        "oid": 155,
+        "dname": "Cyndaquil"
+    },
+    "quilava": {
+        "fid": 156,
+        "oid": 156,
+        "dname": "Quilava"
+    },
+    "typhlosion": {
+        "fid": 157,
+        "oid": 157,
+        "dname": "Typhlosion"
+    },
+    "totodile": {
+        "fid": 158,
+        "oid": 158,
+        "dname": "Totodile"
+    },
+    "croconaw": {
+        "fid": 159,
+        "oid": 159,
+        "dname": "Croconaw"
+    },
+    "feraligatr": {
+        "fid": 160,
+        "oid": 160,
+        "dname": "Feraligatr"
+    },
+    "sentret": {
+        "fid": 161,
+        "oid": 161,
+        "dname": "Sentret"
+    },
+    "furret": {
+        "fid": 162,
+        "oid": 162,
+        "dname": "Furret"
+    },
+    "hoothoot": {
+        "fid": 163,
+        "oid": 163,
+        "dname": "Hoothoot"
+    },
+    "noctowl": {
+        "fid": 164,
+        "oid": 164,
+        "dname": "Noctowl"
+    },
+    "ledyba": {
+        "fid": 165,
+        "oid": 165,
+        "dname": "Ledyba"
+    },
+    "ledian": {
+        "fid": 166,
+        "oid": 166,
+        "dname": "Ledian"
+    },
+    "spinarak": {
+        "fid": 167,
+        "oid": 167,
+        "dname": "Spinarak"
+    },
+    "ariados": {
+        "fid": 168,
+        "oid": 168,
+        "dname": "Ariados"
+    },
+    "crobat": {
+        "fid": 169,
+        "oid": 169,
+        "dname": "Crobat"
+    },
+    "chinchou": {
+        "fid": 170,
+        "oid": 170,
+        "dname": "Chinchou"
+    },
+    "lanturn": {
+        "fid": 171,
+        "oid": 171,
+        "dname": "Lanturn"
+    },
+    "pichu": {
+        "fid": 172,
+        "oid": 172,
+        "dname": "Pichu"
+    },
+    "cleffa": {
+        "fid": 173,
+        "oid": 173,
+        "dname": "Cleffa"
+    },
+    "igglybuff": {
+        "fid": 174,
+        "oid": 174,
+        "dname": "Igglybuff"
+    },
+    "togepi": {
+        "fid": 175,
+        "oid": 175,
+        "dname": "Togepi"
+    },
+    "togetic": {
+        "fid": 176,
+        "oid": 176,
+        "dname": "Togetic"
+    },
+    "natu": {
+        "fid": 177,
+        "oid": 177,
+        "dname": "Natu"
+    },
+    "xatu": {
+        "fid": 178,
+        "oid": 178,
+        "dname": "Xatu"
+    },
+    "mareep": {
+        "fid": 179,
+        "oid": 179,
+        "dname": "Mareep"
+    },
+    "flaaffy": {
+        "fid": 180,
+        "oid": 180,
+        "dname": "Flaaffy"
+    },
+    "ampharos": {
+        "fid": 181,
+        "oid": 181,
+        "dname": "Ampharos"
+    },
+    "bellossom": {
+        "fid": 182,
+        "oid": 182,
+        "dname": "Bellossom"
+    },
+    "marill": {
+        "fid": 183,
+        "oid": 183,
+        "dname": "Marill"
+    },
+    "azumarill": {
+        "fid": 184,
+        "oid": 184,
+        "dname": "Azumarill"
+    },
+    "sudowoodo": {
+        "fid": 185,
+        "oid": 185,
+        "dname": "Sudowoodo"
+    },
+    "politoed": {
+        "fid": 186,
+        "oid": 186,
+        "dname": "Politoed"
+    },
+    "hoppip": {
+        "fid": 187,
+        "oid": 187,
+        "dname": "Hoppip"
+    },
+    "skiploom": {
+        "fid": 188,
+        "oid": 188,
+        "dname": "Skiploom"
+    },
+    "jumpluff": {
+        "fid": 189,
+        "oid": 189,
+        "dname": "Jumpluff"
+    },
+    "aipom": {
+        "fid": 190,
+        "oid": 190,
+        "dname": "Aipom"
+    },
+    "sunkern": {
+        "fid": 191,
+        "oid": 191,
+        "dname": "Sunkern"
+    },
+    "sunflora": {
+        "fid": 192,
+        "oid": 192,
+        "dname": "Sunflora"
+    },
+    "yanma": {
+        "fid": 193,
+        "oid": 193,
+        "dname": "Yanma"
+    },
+    "wooper": {
+        "fid": 194,
+        "oid": 194,
+        "dname": "Wooper"
+    },
+    "quagsire": {
+        "fid": 195,
+        "oid": 195,
+        "dname": "Quagsire"
+    },
+    "espeon": {
+        "fid": 196,
+        "oid": 196,
+        "dname": "Espeon"
+    },
+    "umbreon": {
+        "fid": 197,
+        "oid": 197,
+        "dname": "Umbreon"
+    },
+    "murkrow": {
+        "fid": 198,
+        "oid": 198,
+        "dname": "Murkrow"
+    },
+    "slowking": {
+        "fid": 199,
+        "oid": 199,
+        "dname": "Slowking"
+    },
+    "misdreavus": {
+        "fid": 200,
+        "oid": 200,
+        "dname": "Misdreavus"
+    },
+    "unown": {
+        "fid": 201,
+        "oid": 201,
+        "dname": "Unown"
+    },
+    "wobbuffet": {
+        "fid": 202,
+        "oid": 202,
+        "dname": "Wobbuffet"
+    },
+    "girafarig": {
+        "fid": 203,
+        "oid": 203,
+        "dname": "Girafarig"
+    },
+    "pineco": {
+        "fid": 204,
+        "oid": 204,
+        "dname": "Pineco"
+    },
+    "forretress": {
+        "fid": 205,
+        "oid": 205,
+        "dname": "Forretress"
+    },
+    "dunsparce": {
+        "fid": 206,
+        "oid": 206,
+        "dname": "Dunsparce"
+    },
+    "gligar": {
+        "fid": 207,
+        "oid": 207,
+        "dname": "Gligar"
+    },
+    "steelix": {
+        "fid": 208,
+        "oid": 208,
+        "dname": "Steelix"
+    },
+    "snubbull": {
+        "fid": 209,
+        "oid": 209,
+        "dname": "Snubbull"
+    },
+    "granbull": {
+        "fid": 210,
+        "oid": 210,
+        "dname": "Granbull"
+    },
+    "qwilfish": {
+        "fid": 211,
+        "oid": 211,
+        "dname": "Qwilfish"
+    },
+    "scizor": {
+        "fid": 212,
+        "oid": 212,
+        "dname": "Scizor"
+    },
+    "shuckle": {
+        "fid": 213,
+        "oid": 213,
+        "dname": "Shuckle"
+    },
+    "heracross": {
+        "fid": 214,
+        "oid": 214,
+        "dname": "Heracross"
+    },
+    "sneasel": {
+        "fid": 215,
+        "oid": 215,
+        "dname": "Sneasel"
+    },
+    "teddiursa": {
+        "fid": 216,
+        "oid": 216,
+        "dname": "Teddiursa"
+    },
+    "ursaring": {
+        "fid": 217,
+        "oid": 217,
+        "dname": "Ursaring"
+    },
+    "slugma": {
+        "fid": 218,
+        "oid": 218,
+        "dname": "Slugma"
+    },
+    "magcargo": {
+        "fid": 219,
+        "oid": 219,
+        "dname": "Magcargo"
+    },
+    "swinub": {
+        "fid": 220,
+        "oid": 220,
+        "dname": "Swinub"
+    },
+    "piloswine": {
+        "fid": 221,
+        "oid": 221,
+        "dname": "Piloswine"
+    },
+    "corsola": {
+        "fid": 222,
+        "oid": 222,
+        "dname": "Corsola"
+    },
+    "remoraid": {
+        "fid": 223,
+        "oid": 223,
+        "dname": "Remoraid"
+    },
+    "octillery": {
+        "fid": 224,
+        "oid": 224,
+        "dname": "Octillery"
+    },
+    "delibird": {
+        "fid": 225,
+        "oid": 225,
+        "dname": "Delibird"
+    },
+    "mantine": {
+        "fid": 226,
+        "oid": 226,
+        "dname": "Mantine"
+    },
+    "skarmory": {
+        "fid": 227,
+        "oid": 227,
+        "dname": "Skarmory"
+    },
+    "houndour": {
+        "fid": 228,
+        "oid": 228,
+        "dname": "Houndour"
+    },
+    "houndoom": {
+        "fid": 229,
+        "oid": 229,
+        "dname": "Houndoom"
+    },
+    "kingdra": {
+        "fid": 230,
+        "oid": 230,
+        "dname": "Kingdra"
+    },
+    "phanpy": {
+        "fid": 231,
+        "oid": 231,
+        "dname": "Phanpy"
+    },
+    "donphan": {
+        "fid": 232,
+        "oid": 232,
+        "dname": "Donphan"
+    },
+    "porygon2": {
+        "fid": 233,
+        "oid": 233,
+        "dname": "Porygon2"
+    },
+    "stantler": {
+        "fid": 234,
+        "oid": 234,
+        "dname": "Stantler"
+    },
+    "smeargle": {
+        "fid": 235,
+        "oid": 235,
+        "dname": "Smeargle"
+    },
+    "tyrogue": {
+        "fid": 236,
+        "oid": 236,
+        "dname": "Tyrogue"
+    },
+    "hitmontop": {
+        "fid": 237,
+        "oid": 237,
+        "dname": "Hitmontop"
+    },
+    "smoochum": {
+        "fid": 238,
+        "oid": 238,
+        "dname": "Smoochum"
+    },
+    "elekid": {
+        "fid": 239,
+        "oid": 239,
+        "dname": "Elekid"
+    },
+    "magby": {
+        "fid": 240,
+        "oid": 240,
+        "dname": "Magby"
+    },
+    "miltank": {
+        "fid": 241,
+        "oid": 241,
+        "dname": "Miltank"
+    },
+    "blissey": {
+        "fid": 242,
+        "oid": 242,
+        "dname": "Blissey"
+    },
+    "raikou": {
+        "fid": 243,
+        "oid": 243,
+        "dname": "Raikou"
+    },
+    "entei": {
+        "fid": 244,
+        "oid": 244,
+        "dname": "Entei"
+    },
+    "suicune": {
+        "fid": 245,
+        "oid": 245,
+        "dname": "Suicune"
+    },
+    "larvitar": {
+        "fid": 246,
+        "oid": 246,
+        "dname": "Larvitar"
+    },
+    "pupitar": {
+        "fid": 247,
+        "oid": 247,
+        "dname": "Pupitar"
+    },
+    "tyranitar": {
+        "fid": 248,
+        "oid": 248,
+        "dname": "Tyranitar"
+    },
+    "lugia": {
+        "fid": 249,
+        "oid": 249,
+        "dname": "Lugia"
+    },
+    "ho-oh": {
+        "fid": 250,
+        "oid": 250,
+        "dname": "Ho-oh"
+    },
+    "celebi": {
+        "fid": 251,
+        "oid": 251,
+        "dname": "Celebi"
+    },
+    "azurill": {
+        "fid": 252,
+        "oid": 298,
+        "dname": "Azurill"
+    },
+    "wynaut": {
+        "fid": 253,
+        "oid": 360,
+        "dname": "Wynaut"
+    },
+    "ambipom": {
+        "fid": 254,
+        "oid": 424,
+        "dname": "Ambipom"
+    },
+    "mismagius": {
+        "fid": 255,
+        "oid": 429,
+        "dname": "Mismagius"
+    },
+    "honchkrow": {
+        "fid": 256,
+        "oid": 430,
+        "dname": "Honchkrow"
+    },
+    "bonsly": {
+        "fid": 257,
+        "oid": 438,
+        "dname": "Bonsly"
+    },
+    "mime-jr": {
+        "fid": 258,
+        "oid": 439,
+        "dname": "Mime Jr."
+    },
+    "happiny": {
+        "fid": 259,
+        "oid": 440,
+        "dname": "Happiny"
+    },
+    "munchlax": {
+        "fid": 260,
+        "oid": 446,
+        "dname": "Munchlax"
+    },
+    "mantyke": {
+        "fid": 261,
+        "oid": 458,
+        "dname": "Mantyke"
+    },
+    "weavile": {
+        "fid": 262,
+        "oid": 461,
+        "dname": "Weavile"
+    },
+    "magnezone": {
+        "fid": 263,
+        "oid": 462,
+        "dname": "Magnezone"
+    },
+    "lickilicky": {
+        "fid": 264,
+        "oid": 463,
+        "dname": "Lickilicky"
+    },
+    "rhyperior": {
+        "fid": 265,
+        "oid": 464,
+        "dname": "Rhyperior"
+    },
+    "tangrowth": {
+        "fid": 266,
+        "oid": 465,
+        "dname": "Tangrowth"
+    },
+    "electivire": {
+        "fid": 267,
+        "oid": 466,
+        "dname": "Electivire"
+    },
+    "magmortar": {
+        "fid": 268,
+        "oid": 467,
+        "dname": "Magmortar"
+    },
+    "togekiss": {
+        "fid": 269,
+        "oid": 468,
+        "dname": "Togekiss"
+    },
+    "yanmega": {
+        "fid": 270,
+        "oid": 469,
+        "dname": "Yanmega"
+    },
+    "leafeon": {
+        "fid": 271,
+        "oid": 470,
+        "dname": "Leafeon"
+    },
+    "glaceon": {
+        "fid": 272,
+        "oid": 471,
+        "dname": "Glaceon"
+    },
+    "gliscor": {
+        "fid": 273,
+        "oid": 472,
+        "dname": "Gliscor"
+    },
+    "mamoswine": {
+        "fid": 274,
+        "oid": 473,
+        "dname": "Mamoswine"
+    },
+    "porygon-z": {
+        "fid": 275,
+        "oid": 474,
+        "dname": "Porygon-z"
+    },
+    "treecko": {
+        "fid": 276,
+        "oid": 252,
+        "dname": "Treecko"
+    },
+    "grovyle": {
+        "fid": 277,
+        "oid": 253,
+        "dname": "Grovyle"
+    },
+    "sceptile": {
+        "fid": 278,
+        "oid": 254,
+        "dname": "Sceptile"
+    },
+    "torchic": {
+        "fid": 279,
+        "oid": 255,
+        "dname": "Torchic"
+    },
+    "combusken": {
+        "fid": 280,
+        "oid": 256,
+        "dname": "Combusken"
+    },
+    "blaziken": {
+        "fid": 281,
+        "oid": 257,
+        "dname": "Blaziken"
+    },
+    "mudkip": {
+        "fid": 282,
+        "oid": 258,
+        "dname": "Mudkip"
+    },
+    "marshtomp": {
+        "fid": 283,
+        "oid": 259,
+        "dname": "Marshtomp"
+    },
+    "swampert": {
+        "fid": 284,
+        "oid": 260,
+        "dname": "Swampert"
+    },
+    "ralts": {
+        "fid": 285,
+        "oid": 280,
+        "dname": "Ralts"
+    },
+    "kirlia": {
+        "fid": 286,
+        "oid": 281,
+        "dname": "Kirlia"
+    },
+    "gardevoir": {
+        "fid": 287,
+        "oid": 282,
+        "dname": "Gardevoir"
+    },
+    "gallade": {
+        "fid": 288,
+        "oid": 475,
+        "dname": "Gallade"
+    },
+    "shedinja": {
+        "fid": 289,
+        "oid": 292,
+        "dname": "Shedinja"
+    },
+    "kecleon": {
+        "fid": 290,
+        "oid": 352,
+        "dname": "Kecleon"
+    },
+    "beldum": {
+        "fid": 291,
+        "oid": 374,
+        "dname": "Beldum"
+    },
+    "metang": {
+        "fid": 292,
+        "oid": 375,
+        "dname": "Metang"
+    },
+    "metagross": {
+        "fid": 293,
+        "oid": 376,
+        "dname": "Metagross"
+    },
+    "bidoof": {
+        "fid": 294,
+        "oid": 399,
+        "dname": "Bidoof"
+    },
+    "spiritomb": {
+        "fid": 295,
+        "oid": 442,
+        "dname": "Spiritomb"
+    },
+    "lucario": {
+        "fid": 296,
+        "oid": 448,
+        "dname": "Lucario"
+    },
+    "gible": {
+        "fid": 297,
+        "oid": 443,
+        "dname": "Gible"
+    },
+    "gabite": {
+        "fid": 298,
+        "oid": 444,
+        "dname": "Gabite"
+    },
+    "garchomp": {
+        "fid": 299,
+        "oid": 445,
+        "dname": "Garchomp"
+    },
+    "mawile": {
+        "fid": 300,
+        "oid": 303,
+        "dname": "Mawile"
+    },
+    "lileep": {
+        "fid": 301,
+        "oid": 345,
+        "dname": "Lileep"
+    },
+    "cradily": {
+        "fid": 302,
+        "oid": 346,
+        "dname": "Cradily"
+    },
+    "anorith": {
+        "fid": 303,
+        "oid": 347,
+        "dname": "Anorith"
+    },
+    "armaldo": {
+        "fid": 304,
+        "oid": 348,
+        "dname": "Armaldo"
+    },
+    "cranidos": {
+        "fid": 305,
+        "oid": 408,
+        "dname": "Cranidos"
+    },
+    "rampardos": {
+        "fid": 306,
+        "oid": 409,
+        "dname": "Rampardos"
+    },
+    "shieldon": {
+        "fid": 307,
+        "oid": 410,
+        "dname": "Shieldon"
+    },
+    "bastiodon": {
+        "fid": 308,
+        "oid": 411,
+        "dname": "Bastiodon"
+    },
+    "slaking": {
+        "fid": 309,
+        "oid": 289,
+        "dname": "Slaking"
+    },
+    "absol": {
+        "fid": 310,
+        "oid": 359,
+        "dname": "Absol"
+    },
+    "duskull": {
+        "fid": 311,
+        "oid": 355,
+        "dname": "Duskull"
+    },
+    "dusclops": {
+        "fid": 312,
+        "oid": 356,
+        "dname": "Dusclops"
+    },
+    "dusknoir": {
+        "fid": 313,
+        "oid": 477,
+        "dname": "Dusknoir"
+    },
+    "wailord": {
+        "fid": 314,
+        "oid": 321,
+        "dname": "Wailord"
+    },
+    "arceus": {
+        "fid": 315,
+        "oid": 493,
+        "dname": "Arceus"
+    },
+    "turtwig": {
+        "fid": 316,
+        "oid": 387,
+        "dname": "Turtwig"
+    },
+    "grotle": {
+        "fid": 317,
+        "oid": 388,
+        "dname": "Grotle"
+    },
+    "torterra": {
+        "fid": 318,
+        "oid": 389,
+        "dname": "Torterra"
+    },
+    "chimchar": {
+        "fid": 319,
+        "oid": 390,
+        "dname": "Chimchar"
+    },
+    "monferno": {
+        "fid": 320,
+        "oid": 391,
+        "dname": "Monferno"
+    },
+    "infernape": {
+        "fid": 321,
+        "oid": 392,
+        "dname": "Infernape"
+    },
+    "piplup": {
+        "fid": 322,
+        "oid": 393,
+        "dname": "Piplup"
+    },
+    "prinplup": {
+        "fid": 323,
+        "oid": 394,
+        "dname": "Prinplup"
+    },
+    "empoleon": {
+        "fid": 324,
+        "oid": 395,
+        "dname": "Empoleon"
+    },
+    "nosepass": {
+        "fid": 325,
+        "oid": 299,
+        "dname": "Nosepass"
+    },
+    "probopass": {
+        "fid": 326,
+        "oid": 476,
+        "dname": "Probopass"
+    },
+    "honedge": {
+        "fid": 327,
+        "oid": 679,
+        "dname": "Honedge"
+    },
+    "doublade": {
+        "fid": 328,
+        "oid": 680,
+        "dname": "Doublade"
+    },
+    "aegislash-shield": {
+        "fid": 329,
+        "oid": 681,
+        "dname": "Aegislash"
+    },
+    "pawniard": {
+        "fid": 330,
+        "oid": 624,
+        "dname": "Pawniard"
+    },
+    "bisharp": {
+        "fid": 331,
+        "oid": 625,
+        "dname": "Bisharp"
+    },
+    "luxray": {
+        "fid": 332,
+        "oid": 405,
+        "dname": "Luxray"
+    },
+    "aggron": {
+        "fid": 333,
+        "oid": 306,
+        "dname": "Aggron"
+    },
+    "flygon": {
+        "fid": 334,
+        "oid": 330,
+        "dname": "Flygon"
+    },
+    "milotic": {
+        "fid": 335,
+        "oid": 350,
+        "dname": "Milotic"
+    },
+    "salamence": {
+        "fid": 336,
+        "oid": 373,
+        "dname": "Salamence"
+    },
+    "klinklang": {
+        "fid": 337,
+        "oid": 601,
+        "dname": "Klinklang"
+    },
+    "zoroark": {
+        "fid": 338,
+        "oid": 571,
+        "dname": "Zoroark"
+    },
+    "sylveon": {
+        "fid": 339,
+        "oid": 700,
+        "dname": "Sylveon"
+    },
+    "kyogre": {
+        "fid": 340,
+        "oid": 382,
+        "dname": "Kyogre"
+    },
+    "groudon": {
+        "fid": 341,
+        "oid": 383,
+        "dname": "Groudon"
+    },
+    "rayquaza": {
+        "fid": 342,
+        "oid": 384,
+        "dname": "Rayquaza"
+    },
+    "dialga": {
+        "fid": 343,
+        "oid": 483,
+        "dname": "Dialga"
+    },
+    "palkia": {
+        "fid": 344,
+        "oid": 484,
+        "dname": "Palkia"
+    },
+    "giratina-altered": {
+        "fid": 345,
+        "oid": 487,
+        "dname": "Giratina"
+    },
+    "regigigas": {
+        "fid": 346,
+        "oid": 486,
+        "dname": "Regigigas"
+    },
+    "darkrai": {
+        "fid": 347,
+        "oid": 491,
+        "dname": "Darkrai"
+    },
+    "genesect": {
+        "fid": 348,
+        "oid": 649,
+        "dname": "Genesect"
+    },
+    "reshiram": {
+        "fid": 349,
+        "oid": 643,
+        "dname": "Reshiram"
+    },
+    "zekrom": {
+        "fid": 350,
+        "oid": 644,
+        "dname": "Zekrom"
+    },
+    "kyurem": {
+        "fid": 351,
+        "oid": 646,
+        "dname": "Kyurem"
+    },
+    "roserade": {
+        "fid": 352,
+        "oid": 407,
+        "dname": "Roserade"
+    },
+    "drifblim": {
+        "fid": 353,
+        "oid": 426,
+        "dname": "Drifblim"
+    },
+    "lopunny": {
+        "fid": 354,
+        "oid": 428,
+        "dname": "Lopunny"
+    },
+    "breloom": {
+        "fid": 355,
+        "oid": 286,
+        "dname": "Breloom"
+    },
+    "ninjask": {
+        "fid": 356,
+        "oid": 291,
+        "dname": "Ninjask"
+    },
+    "banette": {
+        "fid": 357,
+        "oid": 354,
+        "dname": "Banette"
+    },
+    "rotom": {
+        "fid": 358,
+        "oid": 479,
+        "dname": "Rotom"
+    },
+    "reuniclus": {
+        "fid": 359,
+        "oid": 579,
+        "dname": "Reuniclus"
+    },
+    "whimsicott": {
+        "fid": 360,
+        "oid": 547,
+        "dname": "Whimsicott"
+    },
+    "krookodile": {
+        "fid": 361,
+        "oid": 553,
+        "dname": "Krookodile"
+    },
+    "cofagrigus": {
+        "fid": 362,
+        "oid": 563,
+        "dname": "Cofagrigus"
+    },
+    "galvantula": {
+        "fid": 363,
+        "oid": 596,
+        "dname": "Galvantula"
+    },
+    "ferrothorn": {
+        "fid": 364,
+        "oid": 598,
+        "dname": "Ferrothorn"
+    },
+    "litwick": {
+        "fid": 365,
+        "oid": 607,
+        "dname": "Litwick"
+    },
+    "lampent": {
+        "fid": 366,
+        "oid": 608,
+        "dname": "Lampent"
+    },
+    "chandelure": {
+        "fid": 367,
+        "oid": 609,
+        "dname": "Chandelure"
+    },
+    "haxorus": {
+        "fid": 368,
+        "oid": 612,
+        "dname": "Haxorus"
+    },
+    "golurk": {
+        "fid": 369,
+        "oid": 623,
+        "dname": "Golurk"
+    },
+    "pyukumuku": {
+        "fid": 370,
+        "oid": 771,
+        "dname": "Pyukumuku"
+    },
+    "klefki": {
+        "fid": 371,
+        "oid": 707,
+        "dname": "Klefki"
+    },
+    "talonflame": {
+        "fid": 372,
+        "oid": 663,
+        "dname": "Talonflame"
+    },
+    "mimikyu-disguised": {
+        "fid": 373,
+        "oid": 778,
+        "dname": "Mimikyu"
+    },
+    "volcarona": {
+        "fid": 374,
+        "oid": 637,
+        "dname": "Volcarona"
+    },
+    "deino": {
+        "fid": 375,
+        "oid": 633,
+        "dname": "Deino"
+    },
+    "zweilous": {
+        "fid": 376,
+        "oid": 634,
+        "dname": "Zweilous"
+    },
+    "hydreigon": {
+        "fid": 377,
+        "oid": 635,
+        "dname": "Hydreigon"
+    },
+    "latias": {
+        "fid": 378,
+        "oid": 380,
+        "dname": "Latias"
+    },
+    "latios": {
+        "fid": 379,
+        "oid": 381,
+        "dname": "Latios"
+    },
+    "deoxys-normal": {
+        "fid": 380,
+        "oid": 386,
+        "dname": "Deoxys"
+    },
+    "jirachi": {
+        "fid": 381,
+        "oid": 385,
+        "dname": "Jirachi"
+    },
+    "nincada": {
+        "fid": 382,
+        "oid": 290,
+        "dname": "Nincada"
+    },
+    "bibarel": {
+        "fid": 383,
+        "oid": 400,
+        "dname": "Bibarel"
+    },
+    "riolu": {
+        "fid": 384,
+        "oid": 447,
+        "dname": "Riolu"
+    },
+    "slakoth": {
+        "fid": 385,
+        "oid": 287,
+        "dname": "Slakoth"
+    },
+    "vigoroth": {
+        "fid": 386,
+        "oid": 288,
+        "dname": "Vigoroth"
+    },
+    "wailmer": {
+        "fid": 387,
+        "oid": 320,
+        "dname": "Wailmer"
+    },
+    "shinx": {
+        "fid": 388,
+        "oid": 403,
+        "dname": "Shinx"
+    },
+    "luxio": {
+        "fid": 389,
+        "oid": 404,
+        "dname": "Luxio"
+    },
+    "aron": {
+        "fid": 390,
+        "oid": 304,
+        "dname": "Aron"
+    },
+    "lairon": {
+        "fid": 391,
+        "oid": 305,
+        "dname": "Lairon"
+    },
+    "trapinch": {
+        "fid": 392,
+        "oid": 328,
+        "dname": "Trapinch"
+    },
+    "vibrava": {
+        "fid": 393,
+        "oid": 329,
+        "dname": "Vibrava"
+    },
+    "feebas": {
+        "fid": 394,
+        "oid": 349,
+        "dname": "Feebas"
+    },
+    "bagon": {
+        "fid": 395,
+        "oid": 371,
+        "dname": "Bagon"
+    },
+    "shelgon": {
+        "fid": 396,
+        "oid": 372,
+        "dname": "Shelgon"
+    },
+    "klink": {
+        "fid": 397,
+        "oid": 599,
+        "dname": "Klink"
+    },
+    "klang": {
+        "fid": 398,
+        "oid": 600,
+        "dname": "Klang"
+    },
+    "zorua": {
+        "fid": 399,
+        "oid": 570,
+        "dname": "Zorua"
+    },
+    "budew": {
+        "fid": 400,
+        "oid": 406,
+        "dname": "Budew"
+    },
+    "roselia": {
+        "fid": 401,
+        "oid": 315,
+        "dname": "Roselia"
+    },
+    "drifloon": {
+        "fid": 402,
+        "oid": 425,
+        "dname": "Drifloon"
+    },
+    "buneary": {
+        "fid": 403,
+        "oid": 427,
+        "dname": "Buneary"
+    },
+    "shroomish": {
+        "fid": 404,
+        "oid": 285,
+        "dname": "Shroomish"
+    },
+    "shuppet": {
+        "fid": 405,
+        "oid": 353,
+        "dname": "Shuppet"
+    },
+    "solosis": {
+        "fid": 406,
+        "oid": 577,
+        "dname": "Solosis"
+    },
+    "duosion": {
+        "fid": 407,
+        "oid": 578,
+        "dname": "Duosion"
+    },
+    "cottonee": {
+        "fid": 408,
+        "oid": 546,
+        "dname": "Cottonee"
+    },
+    "sandile": {
+        "fid": 409,
+        "oid": 551,
+        "dname": "Sandile"
+    },
+    "krokorok": {
+        "fid": 410,
+        "oid": 552,
+        "dname": "Krokorok"
+    },
+    "yamask": {
+        "fid": 411,
+        "oid": 562,
+        "dname": "Yamask"
+    },
+    "joltik": {
+        "fid": 412,
+        "oid": 595,
+        "dname": "Joltik"
+    },
+    "ferroseed": {
+        "fid": 413,
+        "oid": 597,
+        "dname": "Ferroseed"
+    },
+    "axew": {
+        "fid": 414,
+        "oid": 610,
+        "dname": "Axew"
+    },
+    "fraxure": {
+        "fid": 415,
+        "oid": 611,
+        "dname": "Fraxure"
+    },
+    "golett": {
+        "fid": 416,
+        "oid": 622,
+        "dname": "Golett"
+    },
+    "fletchling": {
+        "fid": 417,
+        "oid": 661,
+        "dname": "Fletchling"
+    },
+    "fletchinder": {
+        "fid": 418,
+        "oid": 662,
+        "dname": "Fletchinder"
+    },
+    "larvesta": {
+        "fid": 419,
+        "oid": 636,
+        "dname": "Larvesta"
+    },
+    "stunfisk": {
+        "fid": 420,
+        "oid": 618,
+        "dname": "Stunfisk"
+    }
+}
