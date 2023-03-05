@@ -7,7 +7,8 @@
 # 'stop' will stop the container
 # 'remove' will stop and delete the container.
 
-# echo "UID=${UID}" > .env
+echo "UID=$(id -u)" > .env
+echo "GID=$(id -g)" >> .env
 action=${1:-start}
 
 if [[ -z $(which docker) ]]; then

@@ -4,3 +4,4 @@ token.yml
 logs/*
 __pycache__
 !__init__.py
+.env
