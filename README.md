@@ -47,6 +47,9 @@ Docker-compose is recommended if available.
 
 Alternatively, if you have docker installed already you can simply run
 `./run_bot.sh`
+
+Note: using `run_bot.sh` is recommended since it sets up the `.env` file for `docker compose` to run the bot as your user, instead of root.
+
 #### Docker Compose
 ```sh
 # Startup
