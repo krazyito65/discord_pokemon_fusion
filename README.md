@@ -17,7 +17,7 @@ dev_token: ######
 ```
 
 ----
-owner of the application needs to sync the bot.  In a private channe run the following after the bot as been added to needed servers.
+owner of the application needs to sync the bot.  In a private channel run the following after the bot as been added to needed servers.
 ```
 !sync
 ```
@@ -44,6 +44,9 @@ Initialize your `token.yml` file in your local repo directory. This file will be
 You can launch the container via a raw docker run command or use docker-compose if you have it installed. 
 
 Docker-compose is recommended if available.
+
+Alternatively, if you have docker installed already you can simply run
+`./run_bot.sh`
 #### Docker Compose
 ```sh
 # Startup

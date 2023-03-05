@@ -2,9 +2,11 @@ version: "3.5"
 services:
   fusion_bot:
     image: "discord_pokemon_fusion_bot:latest"
+    user: "${UID-0}"
     volumes:
       - type: bind
         source: ./token.yml
         target: /app/token.yml
+      - ./logs:/app/logs
     environment:
       - "PYTHONUNBUFFERED=1"

@@ -1,3 +1,6 @@
 venv/
 token.yml
 *.swp
+logs/*
+__pycache__
+!__init__.py
