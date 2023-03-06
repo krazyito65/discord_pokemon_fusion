@@ -16,7 +16,7 @@ logging.basicConfig(
     encoding='utf-8', 
     level=logging.INFO,
     format='%(asctime)s - %(levelname)-8s - %(filename)13s:%(lineno)-4d - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S',
+    datefmt='%Y-%m-%d %H:%M:%S %Z',
     handlers=[log_handler] # comment this out to push stdout/err instead of log.
 )
 
