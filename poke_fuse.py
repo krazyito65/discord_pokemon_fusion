@@ -1,12 +1,20 @@
+import json
+import logging
+from datetime import datetime
 from typing import Literal, Optional
 
 import discord
 import requests
 import yaml
-import json
 from discord import app_commands
 from discord.ext import commands
 from discord.ext.commands import Context, Greedy  # or a subclass of yours
+
+from logs import __init__
+
+now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+logging.info('='*10 + f"Starting bot {now}" + '='*10)
 
 def get_full_collection() -> dict:
     with open('data/infinite_fusion_pokedex.json', 'r') as dex:
@@ -14,12 +22,12 @@ def get_full_collection() -> dict:
 
 # Loading Base Config
 try:
-    print("Loading Config...")
+    logging.info("Loading Config...")
     with open("token.yml", 'r') as config_file:
         token = yaml.load(config_file, Loader=yaml.FullLoader)
 except Exception as e:
-    print("Unable to load token.yml. Make sure you created your configuration.")
-    print(f"Exception: {e}")
+    logging.error("Unable to load token.yml. Make sure you created your configuration.")
+    logging.error(f"Exception: {e}")
     exit(1)
 
 ## TODO: when i have a 'prod' token
@@ -41,12 +49,12 @@ async def fuse(interaction: discord.Interaction, mon1: str, mon2: str):
     mon1, mon2 = mon1.lower(), mon2.lower()
     if mon1 not in POKEDEX.keys() or mon2 not in POKEDEX.keys():
         invalid = mon1 if mon1 not in POKEDEX.keys() else mon2
-        print(f"mon1: [{mon1}] - mon2: [{mon2}]")
-        print(f"{interaction.user.name}#{interaction.user.discriminator} passed an invalid pokemon: {invalid}")
+        logging.error(f"mon1: [{mon1}] - mon2: [{mon2}]")
+        logging.error(f"{interaction.user.name}#{interaction.user.discriminator} passed an invalid pokemon: {invalid}")
         await interaction.response.send_message(f"❗Invalid pokemon entered: {invalid}❗", ephemeral=True)
         return
 
-    print(f'we are about to fuse "{mon1}" and "{mon2}"')
+    logging.info(f'we are about to fuse "{mon1}" and "{mon2}"')
     mon1_id, mon2_id = POKEDEX[mon1]["fid"], POKEDEX[mon2]["fid"]
     urls = get_images(mon1_id, mon2_id)
 
@@ -132,7 +140,7 @@ class InvalidPokemon(Exception):
 
 @bot.event
 async def on_ready():
-    print(f'We have logged in as: {bot.user}')
+    logging.info(f'We have logged in as: {bot.user}')
 
 
 @bot.command()
@@ -155,29 +163,29 @@ async def sync(ctx: Context, guilds: Greedy[discord.Object], spec: Optional[Lite
     if not guilds:
         if spec == "local":
             # will only sync the commands specificed to this particular guild
-            print("running 'local' please wait...")
+            logging.info("running 'local' please wait...")
             synced = await ctx.bot.tree.sync(guild=ctx.guild)
         elif spec == "copy":
             # will copy the 'global' commands (ones without guild parameters)
             # to this specific guild for local testing
-            print("running 'copy' please wait...")
+            logging.info("running 'copy' please wait...")
             ctx.bot.tree.copy_global_to(guild=ctx.guild)
             synced = await ctx.bot.tree.sync(guild=ctx.guild)
         elif spec == "clear":
-            print("running 'clear' please wait...")
+            logging.info("running 'clear' please wait...")
             # clears all commands on this specific guild
             ctx.bot.tree.clear_commands(guild=ctx.guild)
             await ctx.bot.tree.sync(guild=ctx.guild)
             synced = []
         else:
-            print("running 'global' please wait...")
+            logging.info("running 'global' please wait...")
             # syncs the 'global' list (ones without guild parameters)
             synced = await ctx.bot.tree.sync()
 
         await ctx.send(
             f"Synced {len(synced)} commands {'globally' if spec is None else 'to the current guild.'}"
         )
-        print(f"sync'd {len(synced)} commands using {spec}")
+        logging.info(f"sync'd {len(synced)} commands using {spec if spec is not None else 'global'}")
         return
 
     # ??? if we pass in guilds, it only syncs those specific guilds.
