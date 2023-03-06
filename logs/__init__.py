@@ -9,7 +9,7 @@ os.makedirs(log_folder, exist_ok=True)
 
 log_file = os.path.join(log_folder, 'pokemon_fusion_bot.log') 
 
-log_handler = RotatingFileHandler(log_file, maxBytes=2000, backupCount=10)
+log_handler = RotatingFileHandler(log_file, maxBytes=2097152 , backupCount=10)
 
 logging.basicConfig(
     # filename=log_file, 
